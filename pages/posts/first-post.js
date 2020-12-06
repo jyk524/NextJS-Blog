@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default function FirstPost() {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>
                     First Post
@@ -15,6 +15,6 @@ export default function FirstPost() {
                     <a>Back to Home</a>
                 </Link>
             </h2>
-        </>
+        </Layout>
     )
 }
