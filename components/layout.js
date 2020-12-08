@@ -61,6 +61,7 @@ export default function Layout ({ children, home }) {
                     </Link>
                 </div>
             )}
+            {/* Back to home if not at home */}
         </div>
     )
 }
